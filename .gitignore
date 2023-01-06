@@ -17,3 +17,6 @@ airflow-worker.pid
 # ENVIRONMENT VARIABLES
 venv
 .env
+
+# LOCAL DATA
+datalake

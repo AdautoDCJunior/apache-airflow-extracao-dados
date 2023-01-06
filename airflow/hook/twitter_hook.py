@@ -14,8 +14,6 @@ class TwitterHook(HttpHook):
     super().__init__(http_conn_id=self.conn_id)
 
   def create_url(self) -> str:
-    timestamp_format = '%Y-%m-%dT%H:%M:%S.00Z'
-
     start_time = self.start_time
     end_time = self.end_time
     query = self.query
